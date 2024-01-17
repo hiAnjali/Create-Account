@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(./MUSSOORIE.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    overflow: hidden;
+}
+
+/* .container{
+    border-radius: 10px;
+    position: absolute;
+    width: 768px;
+    min-height: 480px;
+    overflow: hidden;
+} */
+
+form{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    margin: 16px 0;
+    
+}
+
+.social div {
+    background: rgba(255, 255, 255, 0.15);
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.social div:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.social div a i {
+    color: #000000;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group input {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    padding: 10px;
+    margin: 6px 0;
+    width: 240px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+
+.input-group input:focus{
+    background: rgba(255, 255, 255, 0.25);
+}
+.input-group input::placeholder{
+    color: #000000;
+}
+.input-group a {
+    text-decoration: none;
+    margin: 8px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+button{
+    color: #000000;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 9px 30px;
+    margin-top: 8px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background: rgba(255, 255, 255, 0.25);
+}
